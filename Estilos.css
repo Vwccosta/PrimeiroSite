@@ -1,0 +1,104 @@
+﻿body {
+    font-family: Trebuchet MS, sans-serif;
+    background-color: #353535;
+}
+header {
+    background-color: #ffffff;
+    padding: 3px;
+    border-radius: 20px;
+    margin: 40px;
+}
+footer {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 40px ;
+    text-align: center;
+}
+    footer a img {
+        text-decoration: none;
+        height: 5vw;
+        width:5vw;
+        cursor: pointer;
+      
+    }
+    footer a {
+        text-decoration: none;
+        
+    }
+main {
+    background-color:#ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    margin:40px;
+}
+h1{
+    text-align:center;
+}
+article {
+    border-radius: 60px;
+    padding: 10pt;
+    margin: auto;
+}
+nav {
+    word-spacing: 10pt;
+    text-align: center;
+    cursor:pointer;
+}
+
+li {
+    display: inline;
+
+}
+
+    li a {
+        
+        text-decoration: none;
+    }
+#slider {
+    width: 100%;
+    height: 25vw;
+    position: relative;
+}
+
+    #slider img {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: opacity 800ms;
+        border-radius: 20px;
+    }
+
+ #slider img.selected {
+            opacity: 1;
+            }
+
+form {
+        width: 50%;
+        margin: auto;
+        font-weight: bold;
+     }
+
+input, textarea {
+    
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+
+button {
+    text-align:center;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 60px;
+    padding: 10px;
+    cursor:pointer;
+}
+button:hover{
+    background-color:green;
+}
